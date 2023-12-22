@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Your React App</title>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- React ve ReactDOM'un CDN linklerini ekleyin -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
+    <!-- Style.js dosyasını ekleyin -->
+    <script src="Style.js"></script>
+
+    <!-- React uygulamasını başlatmak için bir script ekleyin -->
+    <script>
+      // ReactDOM.render kodunu buraya ekleyin
+      ReactDOM.render(
+        React.createElement(Style),
+        document.getElementById("root")
+      );
+    </script>
+  </body>
+</html>
